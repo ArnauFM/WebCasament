@@ -3,7 +3,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: #fbefef;
   color: #333;
 }
 
@@ -49,13 +49,14 @@ section {
 
 h2 {
   font-family: 'Playfair Display', serif;
-  color: #5a5a5a;
+  color: #b70e0e;
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.2rem;
+  text-shadow: 2px 2px 2px #e19393;
 }
 
 a {
-  color: #c5a47e;
+  color: #b70e0e;
   text-decoration: none;
 }
 
