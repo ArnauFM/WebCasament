@@ -64,7 +64,7 @@ h2 {
 a {
   color: #b70e0e;
   text-decoration: none;
-  font-weigth:700;
+  font-weigth:700 !important;
 }
 
 a:hover {
