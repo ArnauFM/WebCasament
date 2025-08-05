@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.masjorda.com/uploads/2/6/6/4/26647226/background-images/179942477.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/Mas-Jorda-bg1.avif');
   background-size: cover;
   background-position: center;
   color: #fff;
