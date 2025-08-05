@@ -102,7 +102,7 @@ a:hover {
 
 .image-gallery {
     /* Defineix quantes columnes vols en pantalles grans */
-    column-count: 3; 
+    column-count: 2; 
     /* Defineix l'espai entre columnes */
     column-gap: 1rem; 
 }
