@@ -23,13 +23,14 @@ header {
 }
 
 .hero p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0.5rem 0;
+  font-weight:100;
 }
 
 .date {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 main {
