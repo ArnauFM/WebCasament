@@ -6,7 +6,7 @@
     <title>Casament Arnau i Maria</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
     <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
@@ -60,25 +60,25 @@
         <section id="galeria">
             <h2>Galeria del Lloc</h2>
             <div class="image-gallery">
-                <a href="/images/ermita-2.avif" title="Ermita de Mas Jordà">    
+                <a href="/images/ermita-2.avif" data-lightbox="galeria-casament" data-title="Ermita de Mas Jordà">    
                     <img src="/images/ermita-2.avif" alt="Ermita de Mas Jordà">
                 </a>
-                <a href="/images/Jardi-2.avif" title="Vistes de Mas Jordà"> 
+                <a href="/images/Jardi-2.avif" data-lightbox="galeria-casament" data-title="Vistes de Mas Jordà"> 
                     <img src="/images/Jardi-2.avif" alt="Vistes de Mas Jordà">
                 </a>
-                <a href="/images/Piscina.avif" title="Piscina de Mas Jordà"> 
+                <a href="/images/Piscina.avif" data-lightbox="galeria-casament" data-title="Piscina de Mas Jordà"> 
                     <img src="/images/Piscina.avif" alt="Piscina de Mas Jordà">
                 </a>  
-                <a href="/images/Jardi.avif" title="Racó de Mas Jordà"> 
+                <a href="/images/Jardi.avif" data-lightbox="galeria-casament" data-title="Racó de Mas Jordà"> 
                     <img src="/images/Jardi.avif" alt="Racó de Mas Jordà">
                 </a>  
-                <a href="/images/menjar.avif" title="Detall de Mas Jordà"> 
+                <a href="/images/menjar.avif" data-lightbox="galeria-casament" data-title="Detall de Mas Jordà"> 
                     <img src="/images/menjar.avif" alt="Detall de Mas Jordà">
                 </a>  
-                <a href="/images/entrada.avif" title="Entrada de Mas Jordà"> 
+                <a href="/images/entrada.avif" data-lightbox="galeria-casament" data-title="Entrada de Mas Jordà"> 
                     <img src="/images/entrada.avif" alt="Entrada de Mas Jordà">
                 </a>  
-                <a href="/images/ermita.avif" title="Ermita de Mas Jordà"> 
+                <a href="/images/ermita.avif" data-lightbox="galeria-casament" data-title="Ermita de Mas Jordà"> 
                     <img src="/images/ermita.avif" alt="Ermita de Mas Jordà">
                 </a>      
             </div>
@@ -89,11 +89,7 @@
     <footer>
         <p>Gràcies per acompanyar-nos en aquest dia tan especial per nosaltres!<br>Petons mil per tots!</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
-    <script>
-        window.addEventListener('load', function() {
-            baguetteBox.run('.image-gallery');
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 </body>
 </html>
