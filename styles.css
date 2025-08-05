@@ -116,6 +116,12 @@ a:hover {
     margin-bottom: 1rem; 
 }
 
+.image-gallery a {
+    display: inline-block; /* Important per a l'efecte de columnes */
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
 /* Afegim una mica de disseny responsiu per a mòbils */
 @media (max-width: 768px) {
     .image-gallery {
