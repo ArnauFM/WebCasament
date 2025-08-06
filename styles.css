@@ -24,6 +24,7 @@ header {
   font-family: 'Playfair Display', serif;
   font-size: 4rem;
   margin: 0;
+  line-height: 1;
 }
 
 .hero p {
@@ -59,6 +60,7 @@ h2 {
   margin-bottom: 1.2rem;
   text-shadow: 2px 2px 2px #e19393;
   font-size: 2.4rem;
+  line-height: 1.1;
 }
 
 a {
