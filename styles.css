@@ -49,6 +49,13 @@ main {
   
 }
 
+.btn{
+  padding:8px 16px;
+  color:#fff;
+  background-color:#b70e0e;
+  border-radius:8px;
+}
+
 section {
   background: #fff;
   margin-bottom: 2rem;
